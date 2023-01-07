@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Booking Page</title>
+	<style type="text/css">
+		.first{
+			background: linear-gradient(to left, #ff00cc, #333399);
+			padding: 10px;
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 24px;
+		}
+		.second{
+			background: linear-gradient(to left, #ff00cc, #333399);
+			padding: 10px;
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 24px;
+			float: right;
+		}
+		.third{
+			background: linear-gradient(to left, #ff00cc, #333399);
+			padding: 10px;
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 24px;
+			float: left;
+		}
+		#quote{
+			background: linear-gradient(to left, #ff00cc, #333399);
+			padding: 10px;
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 36px;
+			text-align: center;
+		}
+		#train-booking{
+			margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 400px;
+			padding: 10px;
+			background: #FFF;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px 0px #000;
+		}
+		#train-booking input[type="text"],  #train-booking input[type="password"]{
+			width: 100%;
+			padding: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: none;
+			border-bottom: 1px solid #000;
+			outline: none;
+		}
+		#train-booking input[type="submit"]{
+			width: 100%;
+			padding: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: none;
+			border-radius: 10px;
+			background: linear-gradient(to left, #ff00cc, #333399);
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 24px;
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="first">
+		<h1>Welcome to PebbleTravels</h1>
+	</div>
+	<div class="second">
+		<select>
+			<option><a href="Home.html" onclick="location.href='Home.html';">Home</a></option>
+			<option><a href="Register1.html" onclick="location.href='Register1.html';">New User</a></option>
+			<option><a href="login.html" onclick="location.href='login.html';">Login</a></option>
+			<option><a href="contactus.html" onclick="location.href='contactus.html';">Contact Us</a></option>
+			<option><a href="flightbooking.html" onclick="location.href='flightBooking.html';">Flight Booking</a></option>
+			<option>Train Booking</option>
+			<option><a href="busbooking.html" onclick="location.href='BusBooking.html';">Bus Booking</a></option>
+		</select>
+	</div>
+	<div class="third">
+		<h3>Train Booking</h3>
+	</div>
+	<div id="quote">
+		<h1>"Book Your Train Tickets"</h1>
+	</div>
+	<div id="train-booking">
+		<form action="busbooking.html" method="get">
+			<select name="source">
+				<option value="chennai">Chennai</option>
+				<option value="mumbai">Mumbai</option>
+				<option value="bangalore">Bangalore</option>
+				<option value="hyderabad">Hyderabad</option>
+				<option value="delhi">Delhi</option>
+			</select>
+			<select name="destination">
+				<option value="chennai">Chennai</option>
+				<option value="mumbai">Mumbai</option>
+				<option value="bangalore">Bangalore</option>
+				<option value="hyderabad">Hyderabad</option>
+				<option value="delhi">Delhi</option>
+			</select>
+			<input type="text" name="date" placeholder="Date" required>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

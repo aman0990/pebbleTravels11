@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style type="text/css">
+		.first{
+			background: linear-gradient(to left, #ff00cc, #333399);
+			padding: 10px;
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 24px;
+		}
+		.second{
+			background: linear-gradient(to left, #ff00cc, #333399);
+			padding: 10px;
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 24px;
+			float: right;
+		}
+		.third{
+			background: linear-gradient(to left, #ff00cc, #333399);
+			padding: 10px;
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 24px;
+			float: left;
+		}
+		#quote{
+			background: linear-gradient(to left, #ff00cc, #333399);
+			padding: 10px;
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 36px;
+			text-align: center;
+		}
+		#login{
+			margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 400px;
+			padding: 10px;
+			background: #FFF;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px 0px #000;
+		}
+		#login input[type="text"],  #login input[type="password"]{
+			width: 100%;
+			padding: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: none;
+			border-bottom: 1px solid #000;
+			outline: none;
+		}
+		#login input[type="submit"]{
+			width: 100%;
+			padding: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: none;
+			border-radius: 10px;
+			background: linear-gradient(to left, #ff00cc, #333399);
+			color: #FFF;
+			font-family: sans-serif;
+			font-size: 24px;
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="first">
+		<h1>Welcome to PebbleTravels</h1>
+	</div>
+	<div class="second">
+		<select>
+			<option><a href="home.html" onclick="location.href='home.html';">Home</a></option>
+			<option><a href="Register1.html" onclick="location.href='Register1.html';">New User</a></option>
+			<option><a href="login.html" onclick="location.href='login.html';">Login</a></option>
+			<option><a href="contactus.html" onclick="location.href='contactus.html';">Contact Us</a></option>
+			<option><a href="flightbooking.html" onclick="location.href='flightbooking.html';">Flight Booking</a></option>
+			<option><a href="trainbooking.html" onclick="location.href='trainbooking.html';">Train Booking</a></option>
+			<option><a href="busbooking.html" onclick="location.href='busbooking.html';">Bus Booking</a></option>
+		</select>
+	</div>
+	<div class="third">
+		<h3>Login</h3>
+	</div>
+	<div id="quote">
+		<h1>"Lets Login"</h1>
+	</div>
+	<div id="login">
+		<form action="BusBooking.html" method="get">
+			<input type="text" name="email" placeholder="Email" required>
+			<input type="password" name="password" placeholder="Password" required>
+			<input type="submit" value="Login">
+		</form>
+	</div>
+</body></html>
